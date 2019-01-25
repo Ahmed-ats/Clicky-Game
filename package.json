@@ -1,12 +1,15 @@
 {
   "name": "clicky-game",
   "version": "0.1.0",
+  "homepage": "https://ahmed-ats.github.io/clicky-game",
   "private": true,
   "dependencies": {
+    "-array": "^1.0.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
-    "-array": "^1.0.1"
+    "shuffle-array": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
